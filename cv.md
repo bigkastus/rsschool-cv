@@ -11,7 +11,7 @@ Phone Number: *+37529-7143646*
 **ABOUT ME**
 
 My main objectives is to develop continuously and move forward.
-+ Responsibl
++ Responsible
 + Creative
 + Purposeful
 
@@ -28,7 +28,7 @@ My main objectives is to develop continuously and move forward.
 + design engineer
 
 **EDUCATION**
-+ 1994 – 199 / Polotsk State University, Machine-building Faculty / Novopolotsk, Belarus
++ 1994 – 1999 / Polotsk State University, Machine-building Faculty / Novopolotsk, Belarus
 
 **LANGUAGES**
 + English - B1(EPAM Training Portal Test)
