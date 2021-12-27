@@ -16,14 +16,26 @@ My main objectives is to develop continuously and move forward.
 + Purposeful
 
 **Skills**
-+ Basic HTML, CSS, JS, Python
-+ GitHub
++ HTML, CSS, JS, GitHub, Python
++ React
 + VSCode, WebStorm, PyCharm, JupyterNoteBook
-+ StudioOne, SoundForge, WaveLab, Cubase, Nuendo, AcidPro, Vegas
++ StudioOne, SoundForge, WaveLab, Cubase, Nuendo 
+
+**Code**
+```javascript
+  function createPhoneNumber(numbers){
+    let phoneCode = numbers.filter((el, i) => i < 3 ).join('');
+    let phoneN1 = numbers.filter((el, i) => (i > 2 && i < 6 ) ).join('');
+    let phoneN2 = numbers.filter((el, i) => i > 5).join('');  
+    return `(${phoneCode}) ${phoneN1}-${phoneN2}`  
+  }
+```
 
 **Working Experience**
 + soundengeneer
++ cooperative manager
 + news announcer
++ event organizer
 + school teacher
 + design engineer
 
