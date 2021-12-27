@@ -32,7 +32,7 @@ My main objectives is to develop continuously and move forward.
 ```
 
 **Working Experience**
-+ soundengeneer
++ soundengineer
 + cooperative manager
 + news announcer
 + event organizer
