@@ -1,4 +1,16 @@
 .cv-flex-container{
     border: 10px solid rgb(210, 96, 30);
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    width: 70%;
+}
+
+.flex-el{
+    align-self: center;
+    width: 85%;
+}
+
+.header{
+   display: flex; 
 }
