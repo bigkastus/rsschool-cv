@@ -8,13 +8,7 @@
 </head>
 <body>
   <div class="cv-flex-container">
-    <div class="flex-el header">
-      <h1> Kanstantsin Shalutkevich  </h1>
-      <div>
-        <img src="bigk-logo_280-280.jpg" alt="Logo From GitHub" width="140" height="140" align="center">
-      </div>
-    </div>
-
+    
     <div class="flex-el pdata">
       <p > PERSONAL DATA </p>
               <ul>
@@ -40,18 +34,34 @@
     <div class="flex-el skills">
       <p>SKILLS</p>
       <ul>
-        <li>Basic HTML, CSS, JS, Python</li>
-        <li>GitHub</li>
+        <li>HTML, CSS, JS, GitHub, Python</li>
+        <li>React</li>
         <li>VSCode, WebStorm, PyCharm, JupyterNoteBook</li>
-        <li>StudioOne, SoundForge, WaveLab, Cubase, Nuendo, AcidPro, Vegas</li>
+        <li>StudioOne, SoundForge, WaveLab, Cubase, Nuendo</li>
       </ul>  
+    </div>
+
+    
+    <div class="flex-el code">
+      <p>CODE</p>
+      <pre>
+      <code>
+  function createPhoneNumber(numbers){
+    let phoneCode = numbers.filter((el, i) => i < 3 ).join('');
+    let phoneN1 = numbers.filter((el, i) => (i > 2 && i < 6 ) ).join('');
+    let phoneN2 = numbers.filter((el, i) => i > 5).join('');  
+    return `(${phoneCode}) ${phoneN1}-${phoneN2}`  
+    } </code>
+      </pre>      
     </div>
     
     <div class="flex-el work-exp">
       <p>WORKING EXPERIENCE</p>
       <ul>
-          <li>Soundengeneer</li>
+          <li>Soundengineer</li>
+          <li>Cooperative manager</li>
           <li>News announcer</li>
+          <li>Event organizer</li>
           <li>School teacher</li>
           <li>Design engineer</li>
       </ul>   

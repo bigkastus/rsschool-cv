@@ -1,5 +1,4 @@
-.cv-flex-container{
-    border: 10px solid rgb(210, 96, 30);
+.cv-flex-container{    
     display: flex;
     flex-direction: column;
     /* justify-content: space-evenly; */
@@ -8,9 +7,15 @@
 
 .flex-el{
     align-self: center;
-    width: 85%;
+    width: 80%; 
+    font-size: 1.2rem;   
 }
 
-.header{
-   display: flex; 
+p{
+    font-weight: 800;
+    background-color: rgb(250, 195, 159);
+}
+
+.code{
+    font-size: 1rem;
 }
