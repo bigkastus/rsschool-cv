@@ -20,8 +20,8 @@ p{
     font-size: 1rem;
 }
 
-.pdata{
+.pdata, footer{
     display: flex;
     justify-content: space-between;
-    align-items: cen;    
+    align-items: center;    
 }
