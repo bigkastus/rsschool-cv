@@ -19,3 +19,9 @@ p{
 .code{
     font-size: 1rem;
 }
+
+.pdata{
+    display: flex;
+    justify-content: space-between;
+    align-items: cen;    
+}
