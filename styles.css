@@ -1,21 +1,55 @@
 .cv-flex-container{    
     display: flex;
-    flex-direction: column;
-    /* justify-content: space-evenly; */
-    width: 70%;
+    flex-direction: column;            
 }
 
 .flex-el{
     align-self: center;
-    width: 80%; 
-    font-size: 1.2rem;   
+    width: 90%; 
+    font-size: 1.2rem;       
 }
 
-p{
+.header{
+    align-self: center;
+}
+
+h2{
     font-weight: 800;
     background: linear-gradient(45deg, rgb(199, 238, 253), rgb(48, 103, 253) ) ;
+    font-size: 1.3rem;
 }
 
 .code{
     font-size: 1rem;
+}
+
+.pdata, footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.contacts-double{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+}
+
+span{
+    margin: 5px;
+    padding: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+         background: rgb(251, 249, 236);          
+    }
+    
+    .flex-el{        
+        font-size: .7rem;       
+    }
+
+    img{
+        width: 100px;
+    }  
 }
