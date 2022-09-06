@@ -66,9 +66,9 @@
           <pre>
             <code>
       function createPhoneNumber(numbers){
-        let phoneCode = numbers.filter((el, i) => (i &#60; 3)).join('');
-        let phoneN1 = numbers.filter((el, i) => (i > 2 && i &#60; 6)).join('');
-        let phoneN2 = numbers.filter((el, i) => i > 5).join('');  
+        let phoneCode = numbers.filter((el, i) =&gt; (i &#60; 3)).join('');
+        let phoneN1 = numbers.filter((el, i) =&gt; (i > 2 && i &#60; 6)).join('');
+        let phoneN2 = numbers.filter((el, i) =&gt; i > 5).join('');  
         return `(${phoneCode}) ${phoneN1}-${phoneN2}`  
         }             
             </code>      
